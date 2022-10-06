@@ -7,6 +7,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; 
 }
+:root
+{--heading: blue
+--bg-light: red
+}
 html {
 	font-size: 62.5%; /* 1rem = 10px */
 }
@@ -148,7 +152,7 @@ button {
 	height: 33%;
 }
 .feature__item:nth-child(2) .feature__item-img{
-	order: 2;
+	order:2
 }
 .feature__item:last-child > .feature__item-img {
 	width: 33%;
@@ -164,8 +168,8 @@ button {
 	width: 2rem;
 	height: 2rem;
 	background-color: white;
-	z-index: 10;
-	transform: translate(-50%, 50%) rotate(-45deg);
+	z-index: 1;
+	transform: translate(10px, 10px) rotate(-45deg);
 }
 .feature__item-text:after {
 	content: "";
